@@ -2,7 +2,6 @@
         // Print out main menu..
     system('clear');
     system('figlet recode mati');
-    system('clear');
     echo "=========================\n";
     echo "=      TOOLS-ENCODE     =\n";
     echo "=     AUTHOR :MR.ARIS   =\n";
@@ -11,8 +10,8 @@
     echo "DILARANG RECODE!!\n\n";
     echo "===============================================\n";
     echo "=      TOOLS UNFAEDAH    TOOLS UNFAEDAH       =\n";
-    echo "=     (づ｡◕‿‿◕｡)づ        ah ah ah            =\n";
-    echo "=    pastikan ada encrypt                     =\n";
+    echo "=     (づ｡◕‿‿◕｡)づ        ah ah ah             =\n";
+    echo "=                                             =\n";
     echo "===============================================\n";
 
 
@@ -28,27 +27,27 @@
     switch(trim(fgets(STDIN,256)))
         {
             case 1:
-                echo "Pilih Nomor Mana : ";
+                echo "Masukan Kata Yang Mau Di Encode : ";
                 $kata = trim(fgets(STDIN,256));
                 echo "Encode Md5 :",md5($kata),"\n";
                 exit();
             case 2:
-                echo "Pilih Nomor Mana : ";
+                echo "Masukan Kata Yang Mau Di Encode : ";
                 $kata = trim(fgets(STDIN));
                 echo "Encode Base64 :",base64_encode($kata),"\n";
                 exit();
             case 3:
-                echo "Pilih Nomor Mana : ";
+                echo "Masukan Kata Yang Mau Di Encode : ";
                 $kata = trim(fgets(STDIN));
                 echo "Encode Base64 :",sha1($kata),"\n";
                 exit();
             case 4:
-                echo "Pilih Nomor Mana : ";
+                echo "Masukan Kata Yang Mau Di Encode : ";
                 $kata = trim(fgets(STDIN));
                 echo "Encode Md4 :",crypt('md4',$kata);
                 exit();
             case 5:
-                echo "Pilih Nomor Mana : ";
+                echo "Masukan Kata Yang Mau Di Encode : ";
                 $kata = trim(fgets(STDIN));
                 foreach (hash_algos() as $v) {
                 $r = hash($v, $kata, false);
@@ -56,8 +55,7 @@
                 }
                 exit();
             case 6:
-                echo "Pilih Nomor Mana : ";
-                system('pkg update && pkg upgrade');
+                echo "TUNGGU SEDANG DI INSTALL...... ";
                 system('pkg install git');
                 echo "sudah gan";
                 exit();
