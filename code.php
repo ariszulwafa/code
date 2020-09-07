@@ -2,6 +2,7 @@
         // Print out main menu..
     system('clear');
     system('figlet recode mati');
+    system('clear');
     echo "=========================\n";
     echo "=      TOOLS-ENCODE     =\n";
     echo "=     AUTHOR :MR.ARIS   =\n";
@@ -21,7 +22,7 @@
     echo "    3) Encode Sha1\n";
     echo "    4) Encode Md4\n";
     echo "    5) Encode Semua type\n";
-    echo "    6) Install bahan
+    echo "    6) Install bahan\n";
     echo "    x) Exit\n";
     echo "Pilih Type Encode : ";
     switch(trim(fgets(STDIN,256)))
