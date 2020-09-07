@@ -3,9 +3,9 @@
     system('clear');
     system('figlet recode mati');
     echo "=========================\n";
-    echo "=    𝗧𝗢𝗢𝗟𝗦-𝗘𝗡𝗖𝗢𝗗𝗘     =\n";
-    echo "=       AUTHOR :MR.ARIS =\n";
-    echo "= 𝗖𝗛𝗔𝗧:08884196160 =\n";
+    echo "=     𝗧𝗢𝗢𝗟𝗦-𝗘𝗡𝗖𝗢𝗗𝗘    =\n";
+    echo "=    AUTHOR :MR.ARIS    =\n";
+    echo "= 𝗖𝗛𝗔𝗧:08884196160     =\n";
     echo "=========================\n";
     echo "DILARANG RECODE!!\n\n";
     echo "===============================================\n";
@@ -21,7 +21,7 @@
     echo "    5) Encode Semua typeシ︎\n";
     echo "    6) Install Bahanシ︎\n";
     echo "    x) Exitシ︎\n";
-    echo "Pilih Type Encode : ";
+    echo "Pilih Nomor : ";
     switch(trim(fgets(STDIN,256)))
         {
             case 1:
@@ -54,10 +54,10 @@
                 exit();
             case 6:
                 echo "𝗦𝗘𝗗𝗔𝗡𝗚 𝗗𝗜 𝗜𝗡𝗦𝗧𝗔𝗟𝗟... ";
-                echo "."
+                echo "exit";
                 system('pkg install git');
                 echo "𝗦𝗨𝗗𝗔𝗛 𝗚𝗔𝗡";
-                echo ".";
+                echo "exit";
                 exit();
     
             case "x":
