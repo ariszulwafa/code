@@ -1,6 +1,8 @@
 <?php
         // Print out main menu..
     system('clear');
+    system('figlet recode mati');
+    system('echo amin.....aowkaowk');
     echo "=========================\n";
     echo "=      TOOLS-ENCODE     =\n";
     echo "=     AUTHOR :MR.ARIS   =\n";
